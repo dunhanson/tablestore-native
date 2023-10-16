@@ -1,0 +1,19 @@
+tablestore:
+  - instance-name: test1
+    end-point: '******'
+    access-key-id: '******'
+    access-key-secret: '******'
+    instance-default: true
+    connection-timeout-in-millisecond: 60000
+    socket-timeout-in-millisecond: 6000000
+    timeout-in-millisecond: 6000000
+    sync-client-wait-future-timeout-in-millis: 6000000
+  - instance-name: test2
+    end-point: '******'
+    access-key-id: '******'
+    access-key-secret: '******'
+    instance-default: false
+    connection-timeout-in-millisecond: 600000
+    socket-timeout-in-millisecond: 600000
+    timeout-in-millisecond: 6000000
+    sync-client-wait-future-timeout-in-millis: 6000000
